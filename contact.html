@@ -3,6 +3,7 @@
 <head>
     <title>Form Contact</title>
     <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
 </head>
 <body>
     
@@ -22,7 +23,7 @@
     
      <div class="container-form">
        
-               <form>
+               <form id="form-contact">
                 <h1 style="display: flex; justify-content: center;">GET IN TOUCH</h1>
             <div>
                 <label for="input-name">Name</label>
@@ -42,6 +43,7 @@
             <div>
                 <label for="input-subject">Subject</label>
                 <select id="input-subject">
+                    <option value="">Select</option>
                     <option>Frontend</option>
                     <option>Backend</option>
                     <option>Fullstack</option>
@@ -53,7 +55,7 @@
                 <textarea id="input-message"></textarea>
             </div>
     
-            <button>Submit</button>
+            <button type="button" onclick="submitData(), clearButton()">Submit</button>
         </form>
     </div>
 

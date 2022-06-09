@@ -77,7 +77,7 @@ a:hover {
 }
 
 .right-profile {
-    flex: 50%;
+    flex: 40%;
 }
 
 .left-profile {
@@ -132,7 +132,7 @@ form label {
     
 }
 
-form input {
+form input, select, textarea {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     width: 100%;
@@ -140,26 +140,7 @@ form input {
     border-radius: 5px;
     border: 1px solid rgb(224, 223, 223);
     box-shadow: 0px 0px 15px rgb(194, 194, 194);
-}
-
-form select {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    width: 100%;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid rgb(224, 223, 223);
-    box-shadow: 0px 0px 15px rgb(194, 194, 194);
-}
-
-form textarea {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    width: 100%;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid rgb(224, 223, 223);
-    box-shadow: 0px 0px 15px rgb(194, 194, 194);
+    box-sizing: border-box
 }
 
 form button {
